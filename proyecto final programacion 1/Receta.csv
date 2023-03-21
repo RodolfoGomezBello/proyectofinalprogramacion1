@@ -1,0 +1,5 @@
+Nombre,Ingredientes,Preparcion,Tiempo_Prep,Tiempo_Coc,Fecha_Crea,Imagen_Plato,Etiqueta,Favorita:
+papas al horno,"('1 kg de papas', 'fritolin cantidad necesaria', 'sal')","('rociar el fritolin en una fuente', 'colocar las papas y la sal', 'dar vueltas, si hace falta salar de nuevo', 'servir calientes')",40,30,20/03/2023,,,False
+papas fritas,"('1 kg de papas', '750mml de aceite', 'sal')","('calentar el aceite', 'tirar con cuidado las papas cortadas al aceite', 'una vez crocantes y doradas retirar y salar')",25,20,20/03/2023,,,False
+Omelet,"('Huevo', 'fritolin', 'sal')","('rociar la sarten con fritolin', 'batir los huevo')",10,10,20/03/2023,,,False
+

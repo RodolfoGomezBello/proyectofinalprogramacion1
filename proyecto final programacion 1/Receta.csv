@@ -1,5 +1,5 @@
-Nombre,Ingredientes,Preparcion,Tiempo_Prep,Tiempo_Coc,Fecha_Crea,Imagen_Plato,Etiqueta,Favorita:
-papas al horno,"('1 kg de papas', 'fritolin cantidad necesaria', 'sal')","('rociar el fritolin en una fuente', 'colocar las papas y la sal', 'dar vueltas, si hace falta salar de nuevo', 'servir calientes')",40,30,20/03/2023,,,False
-papas fritas,"('1 kg de papas', '750mml de aceite', 'sal')","('calentar el aceite', 'tirar con cuidado las papas cortadas al aceite', 'una vez crocantes y doradas retirar y salar')",25,20,20/03/2023,,,False
-Omelet,"('Huevo', 'fritolin', 'sal')","('rociar la sarten con fritolin', 'batir los huevo')",10,10,20/03/2023,,,False
-
+Nombre,Ingredientes,Preparcion,Tiempo_Prep,Tiempo_Coc,Fecha_Crea,Imagen_Plato,Etiqueta,Favorita:
+papas fritas,"('papas', 'aceite', 'sal')","('calentar el aceite', 'poner las papas', 'cuando esten listas sacar y salar')",30,20,22/03/2023,C:/Users/PCRA/Desktop/programacion/proyecto final programacion 1/proyecto integrador programacion 1/papas.jpeg,crocante,True
+pure,"('papa', 'sal', 'manteca', 'leche')","('poner a hervir las papas', 'pisar las papas', 'colocar manteca , leche y sal', 'revolver hasta que este en el punto deseado')",30,25,22/03/2023,C:/Users/PCRA/Desktop/programacion/proyecto final programacion 1/proyecto integrador programacion 1/pure.jpeg,cremoso,True
+guiso de fideo,"('1kg de fideo mostacholes', '500mml de pure de tomate', 'sal', 'pimienta', 'pimenton', '2 papas', '1 cebolla', '750gr de blando de pecho')","('poner a hervir agua', 'poner la verduras picadas en el agua', 'poner la carne picada en el agua', 'condimentar', '10 minutos antes de apagar cocinar los fideos')",40,35,22/03/2023,,guiso,True
+milanesa,"('1kg de cuadrada', '2 huevos', 'perejil', 'ajo', 'savora', 'pan rallado', 'sal')","('prepara el huevo junto al perejil', 'agregar el ajo, savora y sal', 'una vez todo mezclado colocar la carne', 'mezclar y dejar reposar', 'empanar con el pan rallado y fritar')",30,25,26/03/2023,,riquisimas,True

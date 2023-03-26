@@ -34,17 +34,24 @@ def csv_dict():
             print(rece["Nombre"],rece["Ingredientes"],rece["Preparcion"],rece["Tiempo_Prep"],rece["Tiempo_Coc"],
                   rece["Imagen_Plato"],rece["Etiqueta"],rece["Favorita"])
 
-def elimina_modifica(receta):
+def elimina(receta):
     with open("Receta.csv","w+") as archivo:
       w = csv.DictWriter (archivo , receta[0].keys())
       #w.writeheader() graba las cabeceras
       for rece in listaderecetas:
        w.writerow(rece)
 
+def sobreescribe(receta):
+    with open("Receta.csv","w+") as archivo:
+      w = csv.DictWriter (archivo , receta[0].keys())
+      w.writeheader() #graba las cabeceras
+      for rece in listaderecetas:
+       w.writerow(rece)
+
 def cargaarchivo(receta):
     with open("Receta.csv","a") as archivo:
       w = csv.DictWriter (archivo , receta[0].keys())
-     #w.writeheader() #graba las cabeceras
+      #w.writeheader() #graba las cabeceras
       for rece in listaderecetas:
        w.writerow(rece)
 
@@ -64,4 +71,3 @@ def agregardatos(nombre,ingredientes,preparacion,tiempoprep,tiempococ,fechacreac
     'Favorita:':favorita}
  agregarrecetas(receta)
  
-csv_dict() 
